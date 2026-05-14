@@ -20,9 +20,9 @@ const realData = () => {
   let [people, setPeople] = useState({});
 
   const firebaseApp = initializeApp({
-    apiKey: "REDACTED",
-    databaseURL: "https://storelytics-app-default-rtdb.firebaseio.com/",
-    projectId: "storelytics-app",
+    apiKey: "<YOUR_FIREBASE_WEB_API_KEY>",
+    databaseURL: "https://<YOUR_PROJECT>-default-rtdb.firebaseio.com/",
+    projectId: "<YOUR_FIREBASE_PROJECT_ID>",
   });
 
   const db = getDatabase(firebaseApp);

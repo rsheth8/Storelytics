@@ -2,8 +2,8 @@ import firebase_admin
 from firebase_admin import credentials, db, firestore
 import json
 
-cred_obj = credentials.Certificate('storeDB.json')
-databaseURL = 'https://storelytics-app-default-rtdb.firebaseio.com/'
+cred_obj = credentials.Certificate('storeDB.json'  # see storeDB.example.json)
+databaseURL = 'https://<YOUR_PROJECT>-default-rtdb.firebaseio.com/'
 
 default_app = firebase_admin.initialize_app(cred_obj, {
     'databaseURL': databaseURL

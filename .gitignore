@@ -1,0 +1,44 @@
+# Secrets — NEVER commit real Firebase credentials.
+# Use the .example versions checked into the repo as a starting point.
+backend/storeDB.json
+frontend/storeDB.json
+frontend/firebaseConfig.js
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Expo / React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# CMake / native build artifacts
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+build/
+cmake-build-*/
+
+# Redis dump file
+dump.rdb
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
