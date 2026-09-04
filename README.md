@@ -1,6 +1,15 @@
 # Storelytics
 
-**Turns a storefront camera into anonymized, real-time foot-traffic analytics — visit counts, dwell time, and demographic/emotion breakdowns — shown live in a mobile dashboard.**
+Class / portfolio project: two doorway cameras → visit counts and dwell time on a live mobile dashboard. Faces are stored as 128-d encodings, not photos.
+
+| | |
+| --- | --- |
+| **Author** | [Rahil Sheth](https://github.com/rsheth8) |
+| **Repo** | [rsheth8/Storelytics](https://github.com/rsheth8/Storelytics) |
+| **Stack** | Python, OpenCV, `face_recognition`, DeepFace, Redis, Firebase, React Native / Expo |
+| **Status** | **Not for production.** Proof of concept. Demographic/emotion labels from DeepFace are biased and directional only. See [Privacy & ethics](#privacy--ethics) before you even think about deploying this. |
+
+Do not treat this as a shipping retail product. Signage, retention, opt-out, and model bias would all have to exist first.
 
 ---
 
