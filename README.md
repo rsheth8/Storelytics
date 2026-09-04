@@ -1,5 +1,10 @@
 # Storelytics
 
+<p align="center">
+  <img src="docs/brand/logo.png" width="168" alt="Storelytics">
+</p>
+
+
 Class / portfolio project: two doorway cameras → visit counts and dwell time on a live mobile dashboard. Faces are stored as 128-d encodings, not photos.
 
 | | |
@@ -193,3 +198,10 @@ The system stores face **encodings, not images** — DeepFace-derived demographi
 - A retention/TTL policy for encodings in Redis and labels in Firestore, rather than indefinite storage
 - An opt-out mechanism for customers
 - Acknowledgment that DeepFace's race/gender/emotion classifications carry well-documented biases and should be treated as directional signals, not ground truth about any individual
+
+## Contributing
+
+PRs and issues welcome. How to run tests, env vars, and the expected layout: [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Don't commit `.env`, API keys, or personal recordings.
+
