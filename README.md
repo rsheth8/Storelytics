@@ -1,20 +1,23 @@
-# Storelytics
-
 <p align="center">
-  <img src="docs/brand/logo.png" width="168" alt="Storelytics">
+  <img src="docs/brand/logo.png" width="128" alt="Storelytics">
 </p>
 
+<h1 align="center">Storelytics</h1>
 
-Class / portfolio project: two doorway cameras → visit counts and dwell time on a live mobile dashboard. Faces are stored as 128-d encodings, not photos.
+<p align="center">
+  Doorway in, dashboard out. Encodings, not photos.
+</p>
 
-| | |
-| --- | --- |
-| **Author** | [Rahil Sheth](https://github.com/rsheth8) |
-| **Repo** | [rsheth8/Storelytics](https://github.com/rsheth8/Storelytics) |
-| **Stack** | Python, OpenCV, `face_recognition`, DeepFace, Redis, Firebase, React Native / Expo |
-| **Status** | **Not for production.** Proof of concept. Demographic/emotion labels from DeepFace are biased and directional only. See [Privacy & ethics](#privacy--ethics) before you even think about deploying this. |
+<p align="center">
+  <a href="https://github.com/rsheth8/Storelytics">Source</a>&nbsp;·&nbsp;<a href="CONTRIBUTING.md">Run locally</a>
+</p>
 
-Do not treat this as a shipping retail product. Signage, retention, opt-out, and model bias would all have to exist first.
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/OpenCV-CV-5C3EE8?style=flat-square">
+  <img alt="Expo" src="https://img.shields.io/badge/Expo-dashboard-000020?style=flat-square">
+</p>
+
+<p align="center"><sub>Class / portfolio only — not a store product. Read Privacy &amp; ethics before anything else.</sub></p>
 
 ---
 
